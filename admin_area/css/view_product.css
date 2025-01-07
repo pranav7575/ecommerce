@@ -1,0 +1,26 @@
+/* Ensure the table is responsive */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+}
+
+/* Adjust table columns for mobile screens */
+@media (max-width: 768px) {
+    .table th, .table td {
+        padding: 5px; /* Reduce padding for smaller screens */
+        font-size: 12px; /* Make font smaller on mobile */
+    }
+
+    .table img {
+        width: 50px; /* Make product images smaller */
+        height: 40px;
+    }
+}
+
+/* Optional: Styles for the row containing the breadcrumb */
+.breadcrumb {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}

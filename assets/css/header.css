@@ -1,0 +1,15 @@
+.accordion{
+
+    --bs-accordion-border-width:0;
+    --bs-accordion-active-bg: #f8f9fa;
+    --bs-accordion-btn-focus-box-shadow:none;
+   
+   
+}
+
+.accordion-butt
+{
+    border-top: 1px solid #000;
+    padding-left: 0%;
+}
+
